@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 511.0, 396.0, 632.0, 248.0 ],
+		"rect" : [ 491.0, 369.0, 625.0, 243.0 ],
 		"openrect" : [ 0.0, 0.0, 625.0, 243.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -42,12 +42,22 @@
 		"title" : "UMIK calibration txt to IR",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1232.0, 36.0, 46.0, 20.0 ],
+					"text" : "Buffers"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-116",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 365.5, 811.66666666666697, 159.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "crop minphase to final result"
 				}
 
@@ -58,7 +68,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 735.0, 118.0, 71.0, 20.0 ],
+					"patching_rect" : [ 764.5, 78.866666666666788, 71.0, 20.0 ],
 					"text" : "Parameters"
 				}
 
@@ -70,7 +80,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 352.0, 638.200000000000273, 153.0, 20.0 ],
-					"presentation_linecount" : 5,
 					"text" : "generate minphase version"
 				}
 
@@ -93,7 +102,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 352.0, 486.800000000000182, 180.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "generate frequency response IR"
 				}
 
@@ -116,7 +124,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 176.0, 190.066667000000052, 201.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "read txt, get response curve as a list"
 				}
 
@@ -128,7 +135,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 176.0, 83.0, 110.0, 33.0 ],
+					"patching_rect" : [ 176.0, 83.0, 113.0, 33.0 ],
 					"text" : "set buffer sampling rates & clear them"
 				}
 
@@ -169,8 +176,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 19.0, 1017.133333333333667, 133.0, 49.0 ],
-					"text" : "buffer~ response_curve_inverted_minphase_cropped"
+					"patching_rect" : [ 19.0, 1017.133333333333667, 255.0, 49.0 ],
+					"text" : "buffer~ response_curve_inverted_minphase_cropped 1 @format float32 @filetype wave"
 				}
 
 			}
@@ -1089,18 +1096,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-53",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 1232.0, 164.066666666666833, 477.0, 22.0 ],
-					"text" : "buffer~ response_curve_inverted_minphase_cropped 1 @format float32 @filetype wave"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-51",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1280,14 +1275,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-59",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 899.5, 117.866666666666788, 124.0, 33.0 ],
+					"patching_rect" : [ 899.5, 117.866666666666788, 92.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 7.0, 7.866666666666788, 124.0, 33.0 ],
+					"presentation_rect" : [ 7.0, 7.866666666666788, 122.0, 33.0 ],
 					"text" : "Drop calibration txt here!",
 					"textjustification" : 1
 				}
