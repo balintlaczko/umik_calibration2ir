@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 491.0, 369.0, 625.0, 243.0 ],
+		"rect" : [ 507.0, 339.0, 625.0, 247.0 ],
 		"openrect" : [ 0.0, 0.0, 625.0, 243.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -39,7 +39,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
-		"title" : "UMIK calibration txt to IR",
+		"title" : "UMIK calibration txt to correction IR",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-3",
@@ -922,7 +922,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 985.5, 340.866666666666788, 78.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.75, 3.866666666666788, 78.0, 20.0 ],
+					"presentation_rect" : [ 373.75, 3.866666666666788, 78.0, 20.0 ],
 					"text" : "Sample Rate"
 				}
 
@@ -962,7 +962,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1067.5, 340.866666666666788, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 421.75, 3.866666666666788, 100.0, 22.0 ]
+					"presentation_rect" : [ 456.75, 3.866666666666788, 65.0, 22.0 ]
 				}
 
 			}
@@ -1050,7 +1050,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 835.5, 340.866666666666788, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 213.75, 3.866666666666788, 100.0, 22.0 ]
+					"presentation_rect" : [ 205.75, 3.866666666666788, 65.0, 22.0 ]
 				}
 
 			}
