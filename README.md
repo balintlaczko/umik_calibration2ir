@@ -7,7 +7,7 @@ A minimal app built with [Max](https://cycling74.com/products/max) for generatin
 While I appreciate the integration of my UMIK-2 in [REW](https://www.roomeqwizard.com/) I wanted to have the mic's calibration file not only as a `.txt` but also as a correction impulse response `.wav` file, so I can apply the correction to the mic feed or recordings with any convolver tool or plugin available in modern audio software.
 
 ## Usage
-Download the latest release. At the moment there are ready builds for _windows-x86-64_ and for _macos-arm64_, but since the source is a Max patch, you can also just opt for that one (if you have Max installed). Note that if you use the patch in Max, you have to install the [HISS Tools](https://www.thehiss.org/) package from the Package Manager.
+Download the latest release. At the moment there are ready builds for _windows-x86-64_ and for _macos-arm64_, but since the source is a Max patch, you can also just opt for that one (if you have Max installed). Note that if you use the patch in Max, you might have to install the [HISS Tools](https://www.thehiss.org/) package from the Package Manager -- although the externals should be included in the project too.
 
 If the app or patch is open, drop the calibration `.txt` file (that comes with your UMIK-1 or UMIK-2) into the rectangle in the top left corner, then set your desired parameters for the correction impulse response. The result should update every time you change a setting. When you are ready, hit 'Export wav' and choose a location for the `.wav` file. That's it, now you can load this in any convolver plugin or other tool to apply the correction to the mic feed or a recording.
 
